@@ -1,0 +1,18 @@
+#clock {
+	font: bold 24pt sans;
+	background: background: #a90329; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #a90329 0%, #8f0222 44%, #4c090b 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#4c090b)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#4c090b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#4c090b 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#4c090b 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #a90329 0%,#8f0222 44%,#4c090b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#4c090b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding: 10px;
+	border: solid balck 2px;
+	border-radius: 10px;
+	margin-left: 29%;
+}
+h1 {
+	text-align: center;
+}
