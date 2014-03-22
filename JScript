@@ -1,0 +1,7 @@
+function displayTime() {
+	var elmt = document.getElementById("clock");
+	var now = new Date();
+	elmt.innerHTML = now.toLocaleString();
+	setTimeout(displayTime, 1000);
+};
+window.onload = displayTime;
